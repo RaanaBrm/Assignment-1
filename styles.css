@@ -7,7 +7,6 @@
   --container-max: 1400px;
 }
 
-/* ---------- Base Styles ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@
 html,
 body {
   height: 100%;
-  outline: none !important; /* remove yellow focus border */
+  outline: none !important;
 }
 html {
   scroll-behavior: smooth;
@@ -27,22 +26,22 @@ body {
   background-color: var(--background-color);
   max-width: var(--container-max);
   margin: 0 auto;
-  display: flex; /* for sticky footer layout */
+  display: flex;
   flex-direction: column;
-  padding-bottom: 56px; /* space for fixed footer */
+  padding-bottom: 56px;
 }
 a {
   color: var(--link-color);
   text-decoration: none;
 }
 
-/* ---------- Navbar (Sticky Header) ---------- */
+/* ---------- Navbar  ---------- */
 nav {
-  position: sticky; /* stays visible while scrolling */
+  position: sticky; /* imp for stays visible while scrolling */
   top: 0;
   z-index: 1000;
-  background: rgba(238, 239, 241, 0.85); /* semi-transparent background */
-  backdrop-filter: blur(8px); /* blur effect */
+  background: rgba(238, 239, 241, 0.85);
+  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   display: flex;
@@ -217,9 +216,9 @@ nav .right a {
   line-height: 1.8;
 }
 
-/* ---------- Footer (Fixed) ---------- */
+/* ---------- Footer  ---------- */
 footer {
-  position: fixed; /* always visible at bottom */
+  position: fixed; /* imp always visible at bottom */
   left: 0;
   right: 0;
   bottom: 0;
@@ -253,7 +252,7 @@ footer {
   position: fixed;
   inset: 0;
   background: url("src/back.png") no-repeat center center/cover;
-  z-index: -1; /* behind everything */
+  z-index: -1;
 }
 .contact-section {
   padding: 80px 24px;
