@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome – Home</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav aria-label="Primary">
+      <div class="left">
+        <a href="index.html">Raana Barimani</a>
+      </div>
+
+      <ul class="right">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="submenu-trigger" aria-haspopup="true">About</a>
+          <ul class="submenu" aria-label="About submenu">
+            <li><a href="#about">About me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#testimony">Testimony</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+
+        <!-- Social media -->
+        <li class="dropdown">
+          <a href="#" class="submenu-trigger" aria-haspopup="true">
+            Social media
+            <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+          </a>
+          <ul class="submenu align-right" aria-label="Social media submenu">
+            <li>
+              <a
+                href="https://github.com/RaanaBrm"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-github"></i><span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/raana-barimani-a0b8a8323/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:raana.barimani@hyperisland.se">
+                <i class="fa-solid fa-envelope"></i><span>Email</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- ABOUT (the new hero-style card) -->
+      <section id="about" class="about-section">
+        <h1 class="about-title">ABOUT ME</h1>
+
+        <article class="about-card" aria-label="About Raana">
+          <figure class="avatar">
+            <img src="src/IMG_2220.JPG" alt="Portrait of Raana Barimani" />
+          </figure>
+
+          <div class="about-text">
+            <p>
+              Hi there! I’m a Computer Engineer with a Bachelor’s degree in
+              Software Engineering and a friendly, people-centered approach to
+              IT. Over the past 7 years, I’ve combined technical expertise with
+              strong collaboration skills in software development, IT support,
+              and system management. I had the privilege of working at two
+              shipbuilding companies, where I focused on streamlining IT
+              processes and ensuring smooth operations for technical teams.
+            </p>
+            <p>
+              Currently, I’m enhancing my skills in Frontend Development at
+              Feature Games , exploring how modern web technologies can create
+              seamless user experiences. My technical toolkit includes C++,
+              JavaScript, HTML, CSS, React, and MySQL, but what truly sets me
+              apart is my ability to connect with teams and users, simplifying
+              complex systems to make them accessible and efficient.
+            </p>
+            <p>
+              I’m passionate about bridging the gap between technology and
+              people, continuously learning to bring both innovation and a human
+              touch to every project I’m part of. Let’s make technology work
+              better for everyone!
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- TESTIMONY -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="text card">
+            As a dynamic and skilled IT professional with over five years of
+            comprehensive experience, I deliver high-quality technical support
+            and resolve complex issues across platforms. Expertise in Microsoft
+            Entra ID, Active Directory, and Intune to optimize infrastructure
+            and efficiency. I bridge technical and non-technical stakeholders
+            and lead service delivery improvements with clear communication and
+            strong troubleshooting.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>
+          &copy; <span id="year">2025</span> Raana Barimani. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
